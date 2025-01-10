@@ -139,6 +139,7 @@ span{
     gap:50px;
     justify-content: space-around;
     align-items: center;
+    margin-bottom:200px;
 }
 .text-left{
     width:500px;
@@ -177,4 +178,54 @@ span{
 .right-img{
     width:140px;
     height:140px;
+}
+.sec6th-img{
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position:bottom;
+    background-repeat: no-repeat;
+    height:100%;
+}
+.sec6th-img{
+    display:flex;
+}
+.sec6th{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:100px;
+}
+.sec6th-text{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    gap:10px;
+    padding-bottom:65px;
+
+}
+.functional{
+    font-size:24px;
+}
+.heading-6th{
+    color:red;
+    font-weight:bold;
+    font-size:75px;
+    font-weight: black;
+}
+.sale50{
+    color:black;
+}
+.para6th{
+    font-size:20px;
+    font-family:arial;
+    color:#070211;
+    font-weight: regular;
+    margin-top:40px;
+}
+.box-img{
+    margin-left:300px;
+    width:800px;
+    height:700px;
+}
+.discount-img{
+    margin-left:200px;
 }
