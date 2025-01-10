@@ -137,7 +137,7 @@ span{
 .fifth-part{
     display:flex;
     gap:50px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .text-left{
@@ -149,6 +149,7 @@ span{
     font-size:30px;
     color:red;
     margin-bottom:25px;
+    font-weight: bold;
 }
 .comingsoon{
     font-size:55px;
@@ -160,4 +161,20 @@ span{
 .image5th{
     height:550px;
     width:550px;
+}
+.right-5th{
+    font-size:55px;
+    color:red;
+}
+.p-right-5th{
+    font-size:25px;
+    margin-bottom:50px;
+}
+.text-right{
+    width:290px;
+    margin-right:150px;
+}
+.right-img{
+    width:140px;
+    height:140px;
 }
