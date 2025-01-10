@@ -1,0 +1,163 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.banner{
+    background-image:url(../images/Banner\ Image.png);
+    height:900px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:#070211;
+    border-radius: 16px;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    z-index: 1; /* Ensure the overlay stays above the background */
+  }
+
+.text{
+color:white;
+text-align:center;
+margin-top:117px;
+position: relative;
+color: white; /* Text color */
+z-index: 2; /* Ensure the text stays above the overlay */
+font-size: 2em; /* Adjust text size as needed */
+}
+.sub-title{
+    font-size:32px;
+}
+.title{
+    font-size:72px;
+}
+.offer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100%;
+    margin-top:100px;
+    margin-bottom:127px;
+}
+.discount{
+    color:red;
+    font-weight:bolder;
+    font-size:88px;
+    margin-bottom:48px;
+}
+.holiday{
+    color:red;
+    font-size: 24px;
+    font-weight: medium;
+}
+.category{
+    font-size:48px;
+    font-weight: bold;
+    color:#070211;
+}
+.mid-night-party{
+    background-image:url(../images/Vectorrr.png);
+    height:1200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-radius:5px;
+    width:auto;
+    display:flex;
+}
+.g70{
+  width:100%;
+  max-width:500px;
+  height:auto; 
+  margin-right:auto;
+  margin-top:auto;
+  margin-top:200px;
+  margin-left:200px;
+}
+.mid-welcome{
+    color:white;
+    font-size:150px;
+    text-shadow:5px 5px rgb(82, 78, 78);
+    margin-top:200px;
+    margin-left:200px;
+}
+.newyear{
+    display:flex;
+}
+.dolor{
+    color:white;
+    font-size:25px;
+}
+span{
+    color:red;
+}
+.details{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    height:300px;
+    padding:200px;
+    margin-left:100px;
+    margin-right:100px;
+    background-color: #f6f0f0;
+    margin-top:200px;
+    font-size:40px;
+    gap:10px;
+    border-radius:10px;
+    margin-bottom:200px;
+}
+.join-btn{
+    width:200px;
+    height:60px;
+    background-color: red;
+    font-size:25px;
+    padding:20px;
+    color:white;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+
+}
+.btn{
+    margin-top:50px;
+}
+.fifth-part{
+    display:flex;
+    gap:50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-left{
+    width:500px;
+    gap:10px;
+    margin-left:50px;
+}
+.newbest{
+    font-size:30px;
+    color:red;
+    margin-bottom:25px;
+}
+.comingsoon{
+    font-size:55px;
+    margin-bottom:10px;
+}
+.left-text{
+    font-size:25px;
+}
+.image5th{
+    height:550px;
+    width:550px;
+}
